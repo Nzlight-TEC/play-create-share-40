@@ -9,9 +9,46 @@ import gamePuzzle from "@/assets/game-puzzle.jpg";
 import gameBattle from "@/assets/game-battle.jpg";
 import gameMagic from "@/assets/game-magic.jpg";
 
+import blockWorldCreative from "@/assets/block-world-creative.jpg";
+import blockWorldMultiplayer from "@/assets/block-world-multiplayer.jpg";
+import blockWorldAdventure from "@/assets/block-world-adventure.jpg";
+
 const games = [
   {
     id: 1,
+    title: "Block World Creative",
+    creator: "BuildMaster",
+    thumbnail: blockWorldCreative,
+    players: 4500,
+    rating: 4.9,
+    likes: 5200,
+    category: "Building",
+    description: "Infinite creative mode with unlimited blocks and terrain generation!"
+  },
+  {
+    id: 2,
+    title: "Block Multiplayer",
+    creator: "CraftCommunity",
+    thumbnail: blockWorldMultiplayer,
+    players: 8900,
+    rating: 4.8,
+    likes: 7800,
+    category: "Multiplayer",
+    description: "Build together with friends in real-time collaborative worlds!"
+  },
+  {
+    id: 3,
+    title: "Block Adventure",
+    creator: "ExplorerDev",
+    thumbnail: blockWorldAdventure,
+    players: 3200,
+    rating: 4.7,
+    likes: 4100,
+    category: "Survival",
+    description: "Survive and thrive in procedurally generated block worlds!"
+  },
+  {
+    id: 4,
     title: "Space Adventure",
     creator: "CosmicGamer",
     thumbnail: gameSpace,
@@ -22,18 +59,7 @@ const games = [
     description: "Explore the galaxy in this epic space adventure!"
   },
   {
-    id: 2,
-    title: "Pixel Platformer",
-    creator: "RetroMaster",
-    thumbnail: gamePlatformer,
-    players: 890,
-    rating: 4.6,
-    likes: 1650,
-    category: "Platformer",
-    description: "Classic pixel-perfect platforming action!"
-  },
-  {
-    id: 3,
+    id: 5,
     title: "Racing Thunder",
     creator: "SpeedDemon",
     thumbnail: gameRacing,
@@ -44,18 +70,7 @@ const games = [
     description: "High-speed racing with stunning visuals!"
   },
   {
-    id: 4,
-    title: "Puzzle Master",
-    creator: "BrainTeaser",
-    thumbnail: gamePuzzle,
-    players: 650,
-    rating: 4.7,
-    likes: 980,
-    category: "Puzzle",
-    description: "Mind-bending puzzles to challenge your brain!"
-  },
-  {
-    id: 5,
+    id: 6,
     title: "Battle Arena",
     creator: "WarriorKing",
     thumbnail: gameBattle,
@@ -64,17 +79,6 @@ const games = [
     likes: 4100,
     category: "Action",
     description: "Epic multiplayer battles await!"
-  },
-  {
-    id: 6,
-    title: "Magic Quest",
-    creator: "WizardCoder",
-    thumbnail: gameMagic,
-    players: 1100,
-    rating: 4.5,
-    likes: 1800,
-    category: "RPG",
-    description: "Embark on a magical journey of discovery!"
   }
 ];
 

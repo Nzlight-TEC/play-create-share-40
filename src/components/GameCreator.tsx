@@ -16,26 +16,26 @@ import creatorInterface from "@/assets/creator-interface.jpg";
 const tools = [
   {
     icon: Layers,
-    title: "Drag & Drop Builder",
-    description: "Create game worlds with our intuitive visual editor",
+    title: "Block Builder",
+    description: "Create infinite 3D worlds with procedural block terrain",
     color: "text-primary"
   },
   {
     icon: Palette,
-    title: "Asset Library",
-    description: "Thousands of sprites, backgrounds, and effects",
+    title: "Build & Break",
+    description: "Place and destroy blocks freely - digital LEGO unlimited",
     color: "text-secondary"
   },
   {
     icon: Music,
-    title: "Sound Studio",
-    description: "Add music and sound effects with one click",
+    title: "Multiplayer Worlds", 
+    description: "Share your creations and build together in real-time",
     color: "text-accent"
   },
   {
     icon: Zap,
-    title: "Instant Publish",
-    description: "Share your games with the world instantly",
+    title: "Avatar System",
+    description: "Simple character models to explore your block worlds",
     color: "text-primary"
   }
 ];

@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import GameGallery from "@/components/GameGallery";
 import GameCreator from "@/components/GameCreator";
+import BlockBuilder from "@/components/BlockBuilder";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,6 +12,7 @@ const Index = () => {
       <main>
         <Hero />
         <GameGallery />
+        <BlockBuilder />
         <GameCreator />
       </main>
       <Footer />
